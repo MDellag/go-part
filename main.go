@@ -15,6 +15,7 @@ func showOptions() {
 	fmt.Println(" 0 - show options ")
 	fmt.Println(" 9 - exit ")
 }
+
 func main() {
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Println("ABM Shell")
